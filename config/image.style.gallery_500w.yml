@@ -6,16 +6,16 @@ dependencies:
 name: gallery_500w
 label: 'Gallery (500w)'
 effects:
-  b1c2d3e4-f5a6-b7c8-d9e0-f1a2b3c4d5e6:
-    uuid: b1c2d3e4-f5a6-b7c8-d9e0-f1a2b3c4d5e6
+  7f2a1b3c-4d5e-6f7a-8b9c-0d1e2f3a4b5c:
+    uuid: 7f2a1b3c-4d5e-6f7a-8b9c-0d1e2f3a4b5c
     id: focal_point_scale_and_crop
     weight: 1
     data:
       width: 500
       height: 375
       crop_type: focal_point
-  e1f2a3b4-c5d6-e7f8-a9b0-c1d2e3f4a5b6:
-    uuid: e1f2a3b4-c5d6-e7f8-a9b0-c1d2e3f4a5b6
+  9a8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d:
+    uuid: 9a8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d
     id: image_convert
     weight: 2
     data:
