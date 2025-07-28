@@ -1,0 +1,226 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3521809d-1cc9-4899-b318-86168b66a38f
+  bundle: kingly_page
+  default_langcode: en
+  depends:
+    e547eace-3a4e-4f3a-9acb-d85153523d63: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Gallery paragraph'
+  created:
+    -
+      value: 1753708418
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /gallery-paragraph
+      langcode: en
+      pathauto: 1
+  field_content:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 340c71b9-152f-4457-9f64-38917288f332
+          bundle: kingly_paragraph_gallery
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1753708456
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          field_gallery_items:
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+          field_gallery_layout:
+            -
+              value: grid-2-col
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: f618de8f-2684-4b00-8f89-78720a581c8c
+          bundle: kingly_paragraph_gallery
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1753708456
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_gallery_items:
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+          field_gallery_layout:
+            -
+              value: grid-3-col
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: d0e39e87-a202-4c13-8269-fc5773cd0ed4
+          bundle: kingly_paragraph_gallery
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1753708456
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_gallery_items:
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+          field_gallery_layout:
+            -
+              value: grid-4-col
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 06b5a79e-d23e-4cfc-bc70-a14f95addbcb
+          bundle: kingly_paragraph_gallery
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1753708456
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_gallery_items:
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+          field_gallery_layout:
+            -
+              value: featured-top
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b0e3e852-cd8f-4bf7-9577-4eec1bae6477
+          bundle: kingly_paragraph_gallery
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1753708456
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_gallery_items:
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+            -
+              entity: e547eace-3a4e-4f3a-9acb-d85153523d63
+          field_gallery_layout:
+            -
+              value: featured-left

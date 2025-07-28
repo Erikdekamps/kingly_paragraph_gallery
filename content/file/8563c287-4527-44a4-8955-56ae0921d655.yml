@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8563c287-4527-44a4-8955-56ae0921d655
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: gallery-image.png
+  uri:
+    -
+      value: 'public://2025-07/gallery-image.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 28981
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1753708956
