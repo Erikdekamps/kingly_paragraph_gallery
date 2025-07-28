@@ -14,8 +14,8 @@ effects:
       width: 500
       height: 375
       crop_type: focal_point
-  9a8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d:
-    uuid: 9a8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d
+  d613ee4e-1694-4e5c-9f04-f354e6e83e12:
+    uuid: d613ee4e-1694-4e5c-9f04-f354e6e83e12
     id: image_convert
     weight: 2
     data:
