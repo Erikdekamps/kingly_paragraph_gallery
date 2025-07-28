@@ -1,0 +1,14 @@
+name: 'Kingly paragraph gallery'
+type: 'Site'
+description: 'Configures a responsive gallery paragraph with selectable grid layouts.'
+recipes:
+  - kingly_paragraph_media
+
+install:
+  - paragraphs
+  - image
+  - responsive_image
+  - options
+
+config:
+  strict: false

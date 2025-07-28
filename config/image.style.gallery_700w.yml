@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: gallery_700w
+label: 'Gallery (700w)'
+effects:
+  c1d2e3f4-a5b6-c7d8-e9f0-a1b2c3d4e5f6:
+    uuid: c1d2e3f4-a5b6-c7d8-e9f0-a1b2c3d4e5f6
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 700
+      height: 525
+      crop_type: focal_point
+  d1e2f3a4-b5c6-d7e8-f9a0-b1c2d3e4f5a6:
+    uuid: d1e2f3a4-b5c6-d7e8-f9a0-b1c2d3e4f5a6
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

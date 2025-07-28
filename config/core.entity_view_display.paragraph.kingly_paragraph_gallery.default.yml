@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.gallery
+    - field.field.paragraph.kingly_paragraph_gallery.field_gallery_items
+    - field.field.paragraph.kingly_paragraph_gallery.field_gallery_layout
+    - paragraphs.paragraphs_type.kingly_paragraph_gallery
+id: paragraph.kingly_paragraph_gallery.default
+targetEntityType: paragraph
+bundle: kingly_paragraph_gallery
+mode: default
+content:
+  field_gallery_items:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: gallery
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_gallery_layout: true
+  search_api_excerpt: true

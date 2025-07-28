@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.gallery
+label: Gallery
+description: 'View mode for media entities displayed within a gallery component.'
+targetEntityType: media
+cache: true

@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.kingly_paragraph_gallery.field_gallery_items
+    - field.field.paragraph.kingly_paragraph_gallery.field_gallery_layout
+    - paragraphs.paragraphs_type.kingly_paragraph_gallery
+  module:
+    - media_library
+id: paragraph.kingly_paragraph_gallery.default
+targetEntityType: paragraph
+bundle: kingly_paragraph_gallery
+mode: default
+content:
+  field_gallery_layout:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_gallery_items:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types:
+        - image
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

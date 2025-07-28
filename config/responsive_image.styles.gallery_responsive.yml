@@ -1,0 +1,30 @@
+# file: recipes/kingly_paragraph_gallery/config/responsive_image.styles.gallery_responsive.yml
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.gallery_300w
+    - image.style.gallery_500w
+    - image.style.gallery_700w
+  theme:
+    - kingly_minimal
+id: gallery_responsive
+label: 'Gallery (Responsive)'
+image_style_mappings:
+  -
+    breakpoint_id: kingly_minimal.lg
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: gallery_700w
+  -
+    breakpoint_id: kingly_minimal.md
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: gallery_500w
+  -
+    breakpoint_id: kingly_minimal.sm
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: gallery_300w
+breakpoint_group: kingly_minimal
+fallback_image_style: gallery_300w

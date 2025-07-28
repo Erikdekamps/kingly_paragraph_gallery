@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: gallery_500w
+label: 'Gallery (500w)'
+effects:
+  b1c2d3e4-f5a6-b7c8-d9e0-f1a2b3c4d5e6:
+    uuid: b1c2d3e4-f5a6-b7c8-d9e0-f1a2b3c4d5e6
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 500
+      height: 375
+      crop_type: focal_point
+  e1f2a3b4-c5d6-e7f8-a9b0-c1d2e3f4a5b6:
+    uuid: e1f2a3b4-c5d6-e7f8-a9b0-c1d2e3f4a5b6
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

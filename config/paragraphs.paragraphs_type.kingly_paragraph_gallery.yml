@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: kingly_paragraph_gallery
+label: 'Kingly Gallery'
+icon_uuid: null
+icon_default: null
+description: 'A responsive gallery with selectable grid layouts, powered by a Single Directory Component.'
+behavior_plugins: {  }

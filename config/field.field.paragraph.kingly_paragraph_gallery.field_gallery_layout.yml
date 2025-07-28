@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_gallery_layout
+    - paragraphs.paragraphs_type.kingly_paragraph_gallery
+id: paragraph.kingly_paragraph_gallery.field_gallery_layout
+field_name: field_gallery_layout
+entity_type: paragraph
+bundle: kingly_paragraph_gallery
+label: 'Gallery Layout'
+description: 'Select the visual layout for the image grid. Note that some layouts are optimized for a specific number of images.'
+required: true
+translatable: false
+default_value:
+  -
+    value: grid-3-col
+default_value_callback: ''
+settings: {  }
+field_type: list_string

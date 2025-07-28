@@ -1,0 +1,20 @@
+{
+  "name": "erikdekamps/kingly_paragraph_gallery",
+  "description": "A Drupal recipe that configures a responsive gallery paragraph.",
+  "keywords": [
+    "drupal",
+    "recipe",
+    "paragraph",
+    "gallery",
+    "grid",
+    "sdc"
+  ],
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "drupal/core": "^10.3 || ^11",
+    "erikdekamps/kingly_page": "dev-main",
+    "erikdekamps/kingly_paragraph_media": "dev-main",
+    "erikdekamps/kingly_minimal": "dev-main"
+  }
+}

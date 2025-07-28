@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_gallery_layout
+field_name: field_gallery_layout
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: grid-2-col
+      label: 'Uniform 2-Column Grid'
+    -
+      value: grid-3-col
+      label: 'Uniform 3-Column Grid'
+    -
+      value: grid-4-col
+      label: 'Uniform 4-Column Grid'
+    -
+      value: featured-top
+      label: 'Featured Top (4 items)'
+    -
+      value: featured-left
+      label: 'Featured Left (5 items)'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
