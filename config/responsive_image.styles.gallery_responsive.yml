@@ -1,4 +1,3 @@
-# file: recipes/kingly_paragraph_gallery/config/responsive_image.styles.gallery_responsive.yml
 langcode: en
 status: true
 dependencies:
